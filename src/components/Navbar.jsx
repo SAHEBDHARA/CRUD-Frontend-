@@ -19,16 +19,11 @@ const Navbar = ()=>{
     return(
         <Header position='static'>
             <Toolbar>
-                
-                <Tabs to='/'>All Text</Tabs>
+               <Tabs to='/'>All Text</Tabs>
                 <Tabs to='/all'>All Users</Tabs>
                 <Tabs to='/add'>Add Users</Tabs>
                 <Tabs to='/text'>Add Text</Tabs>
-
-             
-
-
-            </Toolbar>
+             </Toolbar>
 
         </Header>
     )
