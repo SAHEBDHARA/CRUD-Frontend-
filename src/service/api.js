@@ -10,7 +10,7 @@ export const addUser =async (data)=>{
         console.log("The error is ", error);
     }
 } 
-
+ 
 
 export const allUser = async ()=>{
     try {
@@ -51,7 +51,7 @@ export const deleteUser = async (id)=>{
 }
 
 
-// adding text api 
+// adding text api to 
 
 export const addText =async (data)=>{
 

@@ -41,35 +41,7 @@ const Dailynotes = ()=>{
        
         <Ptext>this is the new and common man in the world Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique inventore sapiente, qui aut porro repellat culpa voluptas unde fuga, excepturi alias modi omnis dolores accusamus eius delectus? Repellendus, quo sed. </Ptext>
         </Container>
-        <Container >
-        <Htext>
-            This is the daily notes.
-        </Htext>
-       
-        <Ptext>this is the new and common man in the world Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique inventore sapiente, qui aut porro repellat culpa voluptas unde fuga, excepturi alias modi omnis dolores accusamus eius delectus? Repellendus, quo sed. </Ptext>
-        </Container>
-        <Container >
-        <Htext>
-            This is the daily notes.
-        </Htext>
-       
-        <Ptext>this is the new and common man in the world Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique inventore sapiente, qui aut porro repellat culpa voluptas unde fuga, excepturi alias modi omnis dolores accusamus eius delectus? Repellendus, quo sed. </Ptext>
-        </Container>
-        <Container >
-        <Htext>
-            This is the daily notes.
-        </Htext>
-       
-        <Ptext>this is the new and common man in the world Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique inventore sapiente, qui aut porro repellat culpa voluptas unde fuga, excepturi alias modi omnis dolores accusamus eius delectus? Repellendus, quo sed. </Ptext>
-        </Container>
-        <Container >
-        <Htext>
-            This is the daily notes.
-        </Htext>
-       
-        <Ptext>this is the new and common man in the world Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique inventore sapiente, qui aut porro repellat culpa voluptas unde fuga, excepturi alias modi omnis dolores accusamus eius delectus? Repellendus, quo sed. </Ptext>
-        </Container>
-
+        
         </div>
     )
 }
