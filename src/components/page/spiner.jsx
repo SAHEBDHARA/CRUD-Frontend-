@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled, { keyframes } from 'styled-components';
 // import { fetchDataFromMongoDB } from './api';
-import {allUser} from '../service/api'
+import {allUser} from '../../service/api'
 import Allusers from "./Allusers"
 
 const Preloader = styled.div`

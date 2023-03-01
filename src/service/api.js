@@ -45,6 +45,7 @@ export const editUser = async (user, id)=>{
 export const deleteUser = async (id)=>{
     try {
         return await axios.delete(`${URL}/${id}`)
+      
     } catch (error) {
         console.log(`error while calling delete api`, error)
         
@@ -64,5 +65,13 @@ export const addText =async (data)=>{
         console.log("The error is ", error);
     }
  } 
- // this is the new novela indian in the world and so no 
+
+
+ export const userResister = async(user)=>{
+    try {
+        return await axios.post(`${URL}/user/resister`, user)
+    } catch (error) {
+        console.log(error)
+    }
+ }
 

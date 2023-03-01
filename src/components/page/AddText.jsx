@@ -1,7 +1,7 @@
 import {TextField, Typography,Button, FormGroup, styled, FormControl, Input, InputLabel } from "@mui/material";
 import { useState } from "react";
 import {useNavigate} from "react-router-dom"
-import { addText } from "../service/api";
+import { addText } from "../../service/api";
 
 
 

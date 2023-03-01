@@ -1,7 +1,7 @@
 
 import { FormControl, FormGroup, InputLabel, Input, Typography, Button, styled } from "@mui/material";
 import { useState, useEffect } from "react";
-import { editUser, getUser } from "../service/api";
+import { editUser, getUser } from "../../service/api";
 import {useNavigate, useParams} from "react-router-dom"
 
 const Container = styled(FormGroup)`

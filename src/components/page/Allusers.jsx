@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { Table, TableHead, TableCell, TableBody, TableRow, styled, Button} from "@mui/material"
 
-import {allUser, deleteUser} from '../service/api.js'
+import {allUser, deleteUser} from '../../service/api.js'
 import { Link } from "react-router-dom"
 
 const TableStyle = styled(Table)`
@@ -48,8 +48,10 @@ const Allusers = ()=>{
     const deleteUserDetails = async (id)=>{
         await deleteUser(id);
         getAlluser();
+    
     }
 
+   
     return (
         <TableStyle>
             <Thead>
