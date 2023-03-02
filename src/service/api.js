@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const URL = 'https://crud-backend-e0aw.onrender.com';
-const URL = 'http://localhost:8000/api'
+const URL = 'https://crud-backend-e0aw.onrender.com';
+// const URL = 'http://localhost:8000/api'
 
 export const addUser =async (data)=>{
     try {
