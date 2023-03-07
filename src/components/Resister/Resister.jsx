@@ -98,7 +98,6 @@ const Register = () => {
 
 export default Register;
 
-// for github push "false"
 
 
 
