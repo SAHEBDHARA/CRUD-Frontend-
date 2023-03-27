@@ -32,9 +32,7 @@ const Register = () => {
     setUser({
         ...user,
         [name]: value
-    })
-    // console.log(value);
-}
+    })}
 
   return (
     <div className="register-container">
