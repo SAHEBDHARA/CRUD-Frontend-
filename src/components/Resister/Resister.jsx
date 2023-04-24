@@ -95,7 +95,6 @@ const Register = () => {
 };
 
 export default Register;
-// this is the resister page in the world history and so on of the 
 
 
 
