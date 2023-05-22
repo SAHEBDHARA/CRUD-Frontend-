@@ -11,7 +11,6 @@ import {BrowserRouter, Routes, Route } from "react-router-dom"
 import Login from "./components/login/Login"
 import Resister from "./components/Resister/Resister"
 
-// import Signup from "./components/Resister/Resister.jsx"
 
 
 function App() {
